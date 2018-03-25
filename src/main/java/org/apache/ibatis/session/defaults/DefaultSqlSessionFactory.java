@@ -36,6 +36,9 @@ import org.apache.ibatis.transaction.managed.ManagedTransactionFactory;
  */
 public class DefaultSqlSessionFactory implements SqlSessionFactory {
 
+  /**
+   * 保存mybatis全局对象
+   */
   private final Configuration configuration;
 
   public DefaultSqlSessionFactory(Configuration configuration) {
